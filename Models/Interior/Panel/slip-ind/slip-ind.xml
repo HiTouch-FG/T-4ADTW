@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+
+<PropertyList>
+
+	<path>slip-ind.ac</path>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>needle</object-name>
+		<property>/orientation/side-slip-deg</property>
+		<interpolation>
+			<entry><ind>-10</ind><dep>-90</dep></entry>
+			<entry><ind>0</ind><dep>0</dep></entry>
+			<entry><ind>10</ind><dep>90</dep></entry>
+		</interpolation>
+		<center>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>0</z-m>
+		</center> 
+		<axis>
+			<x>1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+
+	<animation>
+		<object-name>mount</object-name>
+                <object-name>face</object-name>
+                <object-name>needle</object-name> 
+		<type>material</type>
+		<emission> 
+			<factor-prop>systems/electrical/outputs/instrument-lights-norm</factor-prop>
+			<red>0.5</red>
+			<green>0.5</green>
+			<blue>0.5</blue>
+		</emission>
+	</animation>
+
+
+
+</PropertyList>
+
+
+
+
+

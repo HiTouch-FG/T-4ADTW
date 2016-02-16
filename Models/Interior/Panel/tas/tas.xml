@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>tas.ac</path>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>ASI_face</object-name>
+  <property>instrumentation/airspeed-indicator/true-speed-kt</property>
+  <interpolation>
+   <entry><ind>0</ind><dep>0</dep></entry>
+   <entry><ind>50</ind><dep>10</dep></entry>
+   <entry><ind>100</ind><dep>70</dep></entry>
+   <entry><ind>120</ind><dep>90</dep></entry>
+   <entry><ind>150</ind><dep>135</dep></entry>
+   <entry><ind>200</ind><dep>178</dep></entry>
+   <entry><ind>250</ind><dep>200</dep></entry>
+   <entry><ind>300</ind><dep>235</dep></entry>
+   <entry><ind>400</ind><dep>280</dep></entry>
+   <entry><ind>500</ind><dep>300</dep></entry>
+   <entry><ind>600</ind><dep>330</dep></entry>
+   <entry><ind>700</ind><dep>350</dep></entry>
+  </interpolation>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+
+ <!-- Lightning -->
+
+ <animation>
+  <object-name>ASI_face</object-name>
+  <object-name>ASI_bkg2</object-name>
+  <type>material</type>
+  <emission>
+   <factor-prop>systems/electrical/outputs/instrument-lights-norm</factor-prop>
+   <red>0.5</red>
+   <green>0.5</green>
+   <blue>0.5</blue>
+  </emission>
+ </animation>
+
+</PropertyList>
