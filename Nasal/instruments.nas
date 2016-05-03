@@ -73,6 +73,18 @@ initialize = func {
 ######################### Fire it up ############################################
 setlistener("/sim/signals/fdm-initialized",initialize);
 
+######################### CANOPY PARAMETOR ##########################################
+#splash
+setlistener("/engines/engine[0]/n1",func{
+             interpolate("/environment/aircraft-effects/splash-vector-x",getprop("/velocities/airspeed-kt")*0.008,1)});
+props.globals.getNode("/environment/aircraft-effects/splash-vector-y", 0).setIntValue(0.01);
+props.globals.getNode("/environment/aircraft-effects/splash-vector-z", 0).setIntValue(-1);
 
+#frost
+setprop("/environment/windowheat-level", 1);
+setlistener("/engines/engine[0]/n1",func{
+             interpolate("/environment/aircraft-effects/frost-level",(getprop("/environment/temperature-degc")+10)*getprop("/environment/windowheat-level")*-0.03,1)});
+setlistener("/controls/anti-ice/window-heat",func{
+             interpolate("/environment/windowheat-level",1-getprop("/controls/anti-ice/window-heat")*0.9,10)});
 
 
