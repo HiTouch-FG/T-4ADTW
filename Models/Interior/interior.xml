@@ -41,7 +41,7 @@
   <!-- Pilot seat-->
   <model>
     <name>Pilot seat</name>
-    <path>Aircraft/T-4ADTW/Models/interior/seat/seat.ac</path>
+    <path>Aircraft/T-4ADTW/Models/Interior/seat/seat.ac</path>
     <offsets>
       <x-m>  -0.100 </x-m>
       <y-m>  0.000 </y-m>
@@ -52,7 +52,7 @@
   <!--TourPilot seat-->
   <model>
     <name>TourPilot seat</name>
-    <path>Aircraft/T-4ADTW/Models/interior/seat/seat-Rr.ac</path>
+    <path>Aircraft/T-4ADTW/Models/Interior/seat/seat-Rr.ac</path>
     <offsets>
       <x-m>  1.500 </x-m>
       <y-m>  0.000 </y-m>
@@ -805,7 +805,7 @@
 
  <!-- AHRS -->
    <model>
-    <path>Aircraft/T-4ADTW/Models/Interior/Panel/ahrs/ahrs.xml</path>
+    <path>Aircraft/T-4ADTW/Models/Interior/Panel/AHRS/ahrs.xml</path>
     <offsets>
       <x-m> -3.378 </x-m>
       <y-m> 0.263 </y-m>
