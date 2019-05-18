@@ -47,6 +47,8 @@
     <object-name>mirror.glass</object-name>
   </animation>
 
+
+
   <animation>
     <type>noshadow</type>
     <object-name>canopy.glass.front</object-name>
@@ -91,12 +93,10 @@
     <object-name>vstabFin1</object-name>
     <object-name>vstabFin2</object-name>
     <object-name>antenna2</object-name>
-
-
-    <!--<property-base>sim/model/livery</property-base>-->
+    <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
     <texture>texture.png</texture>
-
+    <shininess>128</shininess>
     <specular>
       <red-prop>specular/red</red-prop>
       <green-prop>specular/green</green-prop>
@@ -161,6 +161,7 @@
         <property>/sim/replay/replay-state</property>
         <value>0</value>
       </equals>
+      <property>gear/gear/ground-is-solid</property>
       </and>
     </condition>
   </animation>

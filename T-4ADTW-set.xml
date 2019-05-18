@@ -4,8 +4,8 @@
 
   <sim>
     <description>T-4 ADTW (YASim)</description>
-    <status>v1.6</status>
-    <author>Hitoshi Uchida(3D/FDM)</author>
+    <long-description>Ver.1.8</long-description>
+    <author>Hitoshi Uchida 'HiTouch'(3D/FDM)</author>
     <flight-model archive="y">yasim</flight-model>
     <aero archive="y">T-4ADTW-yasim</aero>
   </sim>
