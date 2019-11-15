@@ -308,6 +308,8 @@ Syd Adams
         </action>
     </animation>
 
+
+
     <animation>
         <type>pick</type>
         <object-name>freq.knob</object-name>
