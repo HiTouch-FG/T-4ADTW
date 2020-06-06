@@ -6,10 +6,6 @@
 
     <fuel-fraction>1.0</fuel-fraction>
 
-    <startup>
-      <splash-texture>Aircraft/T-4ADTW/T-4ADTW-splash.png</splash-texture>
-    </startup>
-
     <sound>
       <path archive="y">Aircraft/T-4ADTW/Sounds/T-4ADTW-sound.xml</path>
     </sound>
@@ -117,6 +113,7 @@
     <T-4ADTW>
       <file>Aircraft/T-4ADTW/Nasal/electrical.nas</file>
       <file>Aircraft/T-4ADTW/Nasal/light.nas</file>
+      <file>Aircraft/T-4ADTW/Nasal/light-manager.nas</file>
       <file>Aircraft/T-4ADTW/Nasal/liveries.nas</file>
       <file>Aircraft/T-4ADTW/Nasal/immat.nas</file>
       <file>Aircraft/T-4ADTW/Nasal/instruments.nas</file>
